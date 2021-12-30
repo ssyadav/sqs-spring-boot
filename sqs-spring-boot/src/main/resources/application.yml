@@ -1,0 +1,15 @@
+cloud:
+  aws:
+    region:
+      static: region
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: your access-key
+      secret-key: your secret-key
+    end-point:
+      uri: sqs-queue endpoint uri
+
+server:
+  port: 8084
